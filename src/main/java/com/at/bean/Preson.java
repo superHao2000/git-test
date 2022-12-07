@@ -20,6 +20,12 @@ public class Preson {
         this.name = name;
     }
 
+    public void Say() {
+        System.out.println("hello git1");
+        System.out.println("hello git2");
+        System.out.println("hello git3");
+    }
+
     @Override
     public String toString() {
         return "Preson{" +
